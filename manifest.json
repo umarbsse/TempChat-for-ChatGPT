@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Temporary Chat Redirect",
+  "version": "1.0.0",
+  "description": "Redirects the exact ChatGPT root URL to temporary chat mode.",
+  "action": {
+    "default_title": "ChatGPT Temporary Chat Redirect",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

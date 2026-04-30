@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://chatgpt.com/?temporary-chat=true"
+      }
+    },
+    "condition": {
+      "urlFilter": "|https://chatgpt.com/|",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]
