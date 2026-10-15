@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Temporary Chat Redirect",
+  "name": "TempChat for ChatGPT",
   "version": "1.0.0",
   "description": "Redirects the exact ChatGPT root URL to temporary chat mode.",
   "action": {
